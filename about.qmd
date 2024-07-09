@@ -1,0 +1,47 @@
+---
+title: "personal_website_cristina"
+format: html
+editor: visual
+---
+
+# This is y first section
+
+Here is some <span class="blue-text">example<span> text
+
+## This is a smaller header
+
+<p class="blue-text">some text that I am testing<p>
+here is another line
+[and another and more text]{.blue-text} 
+and another line 
+
+and one more 
+
+::: {.blue-text}
+djfklsdjf
+kdjflkdjfa
+djkfjalfkdj
+dlkfjsdlkfj
+dlkjflkdjf
+::: 
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
